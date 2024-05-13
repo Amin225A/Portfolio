@@ -1,0 +1,26 @@
+body {
+    font-family: poppins;
+    margin: 1%;
+}
+
+h1 {
+    font-family: poppins;
+    font-size: 50px;
+}
+
+.name-highlight{
+    color: orange;
+}
+
+h3 {
+    font-weight: 700;
+    color: #0d4fb1f7;
+}
+
+.rank {
+    display: flex;
+}
+.dot {
+    font-weight: 800;
+    font-size: 20px;
+}
