@@ -1,37 +1,145 @@
-body {
+body {                                                             /*Body Margin and Font*/
     font-family: poppins;
-    margin: 1%;
+    margin: 0px;
+    background-color: whitesmoke;
+}
+.hd1{                                                              /*Welcome to Margin Top*/
+    padding-top: 20px;
 }
 
-h1 {
+h1 {                                                              /*Welcome To Amin's Website*/
     font-family: poppins;
-    font-size: 50px;
+    font-size: 45px;
+    margin: 0;
 }
 
-.name-highlight{
+.name-highlight{                                                  /*Span Tag Amin*/
     color: orange;
 }
 
-h3 {
+.h32 {                                                            /*h3 Amin.*/
+    font-size: 40px;
     font-weight: 700;
     color: #0d4fb1f7;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    margin-bottom: 0px;
 }
 
-.rank {
-    display: flex;
-}
-.dot {
+.rank {                                                           /*Junior Developer*/
+    font-size: 18px;
     font-weight: 800;
-    font-size: 20px;
+    color: rgb(1, 208, 208);
+    margin-top: 0px;
+}
+.dot {                                                            /*Name Dot Amin.*/
+    font-weight: 800;
+    font-size: 40px;
+    color: aqua;
 }
 
-.half-width {
+.half-width {                                                      /*Making Side*/
     width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
 }
 
-.half-width img {
-    width: 100%;
+.half-width img {                                                  /*Making Image Standard*/
+    width: 90%;
+}
+
+.top-banner {                                                      /*Top Banner Image*/
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.bottom-banner {                                                   /*Bottom Banner Image*/
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+section {                                                          /*After Float Height*/
+    height: 500px;
+}
+
+.link-button {                                                     /*Hire Me Button*/
+    text-decoration: none;
+    background-image: linear-gradient(45deg,#0595cde9,#0008f1);
+    padding: 10px 20px;
+    border-radius: 9px;
+    color: white;
+    font-weight: 700;
+}
+.link-button2 {                                                    /*Download Resume Button*/
+    text-decoration: none;
+    background-image: linear-gradient(45deg,#c49e06e9,#d87b02);
+    padding: 10px 20px;
+    border-radius: 9px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+.link-button:hover {                                                /*Hire Me Hover*/
+    background-image: linear-gradient(45deg,#09a3e0f1 ,#07b7fcf1);
+}
+.link-button2:hover {                                               /*Download Resume Hover*/
+    background-image: linear-gradient(45deg,#cfb003 ,#cbad02f8);
+}
+.experience {                                                       /*Experience margin*/
+    background-image: url("images/exp-bg.png");
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.forpd-1 {                                                         /*First Section Padding*/
+    padding-bottom: 120px;
+}
+.forpd-2 {                                                         /*Second Section Padding*/
+    padding-left: 50px;
+}
+.exp-dot{                                                          /*Experience (:) Span Tag*/
+    color: whitesmoke;
+    font-size: 28px;
+    padding-left: 4px;
+    font-weight: 700;
+}
+.EXP{                                                              /*Experience With Border*/
+    font-size: 26px;
+    text-align: left;
+    color: #fffffffd;
+    background-image: linear-gradient(90deg,rgb(0, 85, 241), rgb(0, 216, 240));
+    border-radius: 8px;
+    box-shadow: 6px 9px 16px #0058b7;
+    padding-left: 4px;
+    width: 93.3%;
+    margin-left: 5%;
+    margin-right: 81%;
+    width: auto;
+    
+}
+.fullstack{                                                        /*Experience Details FullStack,Front-End*/
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10;
+    background-color: rgb(255, 255, 255);
+}
+.para-color-1{
+    background-image: linear-gradient(45deg,rgb(4, 135, 223), rgb(5, 5, 206));
+    color: rgb(255, 255, 255);
+    border-radius: 4px 0px 0px 4px;
+    box-shadow: 3px 3px 8px rgba(24, 0, 177, 0.716) ;
+}
+.para-color-2{
+    background-image: linear-gradient(45deg,rgb(223, 88, 4), rgb(237, 124, 4));
+    color: rgb(255, 255, 255);
+    border-radius: 4px 0px 0px 4px;
+    box-shadow: 3px 3px 8px rgba(184, 92, 0, 0.716) ;
+}
+.footer {
+    text-align: center;
+}
+#fullstack {
+    border-left: 4px solid rgb(0, 124, 212);
+}
+#front-end {
+    border-left: 4px solid rgb(212, 106, 0);
 }
